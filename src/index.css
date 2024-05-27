@@ -1,0 +1,45 @@
+/* src/index.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #7695ce, #70b799);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h4, h5 {
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+.card {
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  color: #73a5ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.icon-button {
+  margin: 0 5px;
+}
